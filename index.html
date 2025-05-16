@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Команды сервера SenyerCraft</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      // Функция для отображения даты последнего изменения
+      function displayLastModifiedDate() {
+        // Получаем дату последнего изменения страницы
+        const lastModifiedDate = document.lastModified;
+        // Находим элемент footer и добавляем туда дату
+        document.getElementById("last-modified-date").innerText =
+          "Последнее изменение: " + lastModifiedDate;
+      }
+
+      // Вызываем функцию после загрузки страницы
+      window.onload = displayLastModifiedDate;
+    </script>
+  </head>
+  <body>
+    <body>
+
+        <h1>SenyerCraft | Commands</h1>
+        <a class="button" href="https://t.me/senyer7" target="_blank">ТГ разработчика</a>
+        <a class="button tg" href="https://t.me/senyercraft_minecraft" target="_blank">ТГК</a>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Команда</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>/help</td>
+                    <td>*в разработке*</td>
+                </tr>
+                <tr>
+                    <td>/home <имя></td>
+                    <td>Телепортироваться домой.</td>
+                </tr>
+                <tr>
+                    <td>/spawn</td>
+                    <td>Телепортироваться на спавн.</td>
+                </tr>
+                <tr>
+                    <td>/warp [название]</td>
+                    <td>Телепортироваться на варп.</td>
+                </tr>
+                <tr>
+                    <td>/kit</td>
+                    <td>Купить стартовый набор.</td>
+                </tr>
+                <tr>
+                    <td>/pay <ник> <сумма от 1₽></td>
+                    <td>Получить стартовый набор.</td>
+                </tr>
+                <tr>
+                    <td>/tpa <ник></td>
+                    <td>Телепорт к игроку</td>
+                </tr>
+                <tr>
+                    <td>/balance</td>
+                    <td>Узнать свой баланс</td>
+                </tr>
+                <tr>
+                    <td>СКОРО БУДУТ НОВЫЕ КОМАНДЫ</td>
+                    <td>@senyer7 ушел спать</td>
+                </tr>
+                <!-- Добавьте больше команд по необходимости -->
+            </tbody>
+        </table>
+    
+    <div id="last-modified-date"></div>
+    <footer>
+      © Ступников Арсений Сергеевич | Все права защищены | 2024-2025
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #4caf50;
+}
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.button.tg {
+  background-color: #0077cc;
+}
+.button:hover {
+  background-color: #45a049;
+}
+.button.tg:hover {
+  background-color: #005999;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+td {
+  background-color: #f9f9f9;
+}
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Стили для last-modified-date */
+#last-modified-date {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: inline-block;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
